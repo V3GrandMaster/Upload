@@ -1,0 +1,9 @@
+[
+  "constructor()",
+  "function owner() view returns (address)",
+  "function isAuthorized(address) view returns (bool)",
+  "function authorize(address _addr) external",
+  "function unauthorize(address _addr) external",
+  "function startArbitrage(address _routerBuy, address _routerSell, address _token, uint256 _amountIn, uint256 _amountOutMin, uint256 _profitMin) external returns (bool)",
+  "function uniswapV2Call(address _sender, uint256 _amount0, uint256 _amount1, bytes calldata _data) external"
+]
